@@ -1,4 +1,4 @@
-import impl
+from . import impl
 
 def test_f():
 	assert impl.f(1, 2, 3) == 6
