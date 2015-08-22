@@ -4,4 +4,5 @@ def test_f():
 	assert f(2, 4, 6) == 12
 
 def test_h():
-	assert h(0) == 45.34
+	assert h(0) == 45.34, "this should fail"
+	assert h(0) == 0.0, "this should pass"
