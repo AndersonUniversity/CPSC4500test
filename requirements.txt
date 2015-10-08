@@ -1,2 +1,2 @@
 tornado
-pylint
+flake8
