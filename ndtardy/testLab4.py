@@ -1,4 +1,4 @@
-import lab4
+from . import lab4
 
 __author__ = 'Neal'
 
