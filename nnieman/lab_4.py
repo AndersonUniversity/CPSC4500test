@@ -2,7 +2,8 @@
 
 
 def verify_digits_decreasing(num):
-    """Return True if the digits of a number are strictly decreasing or False otherwise."""
+    """Return True if the digits of a number are
+       strictly decreasing or False otherwise."""
     last_digit = None
 
     for digit_str in str(num):
@@ -32,4 +33,3 @@ def math_magic(num):
     reversed_difference = reverse_number(difference)
 
     return difference + reversed_difference
-
