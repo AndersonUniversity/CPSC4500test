@@ -1,6 +1,6 @@
 __author__ = 'elliotwomack'
 
-import lab4
+from . import lab4
 
 def test_magic1089():
     assert lab4.magic1089(532)==1089
