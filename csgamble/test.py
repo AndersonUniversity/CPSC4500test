@@ -13,4 +13,3 @@ container = range(100, 999)
 def test_yes():
     for i in container:
         Magic.calculate(i)
-

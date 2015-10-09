@@ -14,7 +14,7 @@ def descent(num):
 def calculate(num):
     num2 = str(num)
     # verifies that the number is 3-digits and each is descending
-    if len(num2) == 3 and descent(num) == True:
+    if len(num2) == 3 and descent(num) is True:
         # creates backward number
         list1 = [num2[2], num2[1], num2[0]]
         num3 = ''
@@ -33,5 +33,5 @@ def calculate(num):
         result = new_num + int(new_num3)
         str_result = str(result)
         # verifies that each of these equals 1089
-        print(num2 + ' - ' + num3 + ' = ' + str_num + ' + ' + new_num3 + ' = ' + str_result)
-
+        print(num2 + ' - ' + num3 + ' = ' + str_num + ' + ' +
+              new_num3 + ' = ' + str_result)
