@@ -3,7 +3,7 @@
 def decreasing_or_not(pInt):
     int_array = list(map(int, str(pInt)))
     for i in range(0, len(int_array)-1):
-        if int_array[i] < int_array[i+1]:
+        if int_array[i] <= int_array[i+1]:
             return False
     return True
 
@@ -14,9 +14,7 @@ def reverse_number(pInt):
 
 def magic_or_not(pInt):
     if pInt > 99 and pInt < 1000:
-        if decreasing_or_not(pInt) == True:
-            step_one = pInt - reverse_number(pInt)
-            step_two = step_one + reverse_number(step_one)
-            return step_two
-        return 'Not a decreasing number.'
-    return 'Number needs to be between 100 and 999.'
+        step_one = pInt - reverse_number(pInt)
+        step_two = step_one + reverse_number(step_one)
+        return step_two
+    return None
