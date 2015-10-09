@@ -1,6 +1,6 @@
 __author__ = 'Connor  Emrich'
 
-import Lab4
+from . import Lab4
 
 def test_Lab4():
     for i in range(100,999):
