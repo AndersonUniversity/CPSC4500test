@@ -25,5 +25,5 @@ def trick():
     for i in range(100, 999):
         if decrease(i):
             difference = i - flip(i)
-            final = difference + flip(difference)
+            difference + flip(difference)
             print(i)
