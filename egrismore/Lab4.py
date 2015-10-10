@@ -20,10 +20,8 @@ def decrease(i):
     return True
 
 
-def trick():
+def trick(i):
     """shows the magical 1089"""
-    for i in range(100, 999):
-        if decrease(i):
-            difference = i - flip(i)
-            difference + flip(difference)
-            print(i)
+    difference = i - flip(i)
+    difference + flip(difference)
+    print(i)
