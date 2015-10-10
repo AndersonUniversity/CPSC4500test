@@ -21,10 +21,8 @@ def descending(i):
     return True
 
 
-def magic():
+def magic(i):
     """prints 1089"""
-    for i in range(100, 999):
-        if descending(i):
-            difference = i - reverse(i)
-            print(difference + reverse(difference))
-            print(i)
+    difference = i - reverse(i)
+    print(difference + reverse(difference))
+    print(i)
