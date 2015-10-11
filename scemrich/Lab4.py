@@ -9,7 +9,8 @@ add it to the reverse of itself. The number you will get is 1089!
 
 def check_decreasenum(number1):
     numberstring = str(number1)
-    if numberstring[0] > numberstring[1] > numberstring[2] and len(numberstring) == 3:
+    if numberstring[0] > numberstring[1] > numberstring[2] and
+        len(numberstring) == 3:
         return True
     else:
         return False
