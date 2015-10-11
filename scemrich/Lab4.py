@@ -1,6 +1,6 @@
 __author__ = 'Connor  Emrich'
 
-'''Write down a three-digit number whose digits are decreasing.
+'''   Write down a three-digit number whose digits are decreasing.
 Then reverse the digits to create a new number, and subtract
 is number from the original number. With the resulting number,
 add it to the reverse of itself. The number you will get is 1089!
