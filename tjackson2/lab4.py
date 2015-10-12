@@ -1,5 +1,9 @@
-'''09/28/2015 Tyler Jackson  Functions that handle testing for magic numbers. Includes a function to test to see if the number
-    is in magic number format, meaning decreasing, and a function to reverse a number.'''
+'''09/28/2015 Tyler Jackson  Functions that handle testing for magic numbers.
+    Includes a function to test to see if the number
+    is in magic number format, meaning decreasing,
+    and a function to reverse a number.'''
+
+
 def decreasing_or_not(pInt):
     int_array = list(map(int, str(pInt)))
     for i in range(0, len(int_array)-1):
@@ -7,10 +11,12 @@ def decreasing_or_not(pInt):
             return False
     return True
 
+
 def reverse_number(pInt):
     int_string = str(pInt)
     int_reversed = int(int_string[::-1])
     return int_reversed
+
 
 def magic_or_not(pInt):
     if pInt > 99 and pInt < 1000:
