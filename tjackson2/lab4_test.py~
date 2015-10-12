@@ -5,5 +5,5 @@ from . import lab4
 
 def magic_or_not_test():
     for i in range(100, 1000):
-        if (lab4.decreasing_or_not(i)):
+        if lab4.decreasing_or_not(i) is True:
             assert lab4.magic_or_not(i) == 1089
