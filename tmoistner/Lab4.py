@@ -24,5 +24,5 @@ def descending(i):
 def magic(i):
     """prints 1089"""
     difference = i - reverse(i)
-    print(difference + reverse(difference))
-    print(i)
+    result = difference + reverse(difference)
+    return result
