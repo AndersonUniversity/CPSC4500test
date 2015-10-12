@@ -13,7 +13,7 @@ def check_decreasenum(number1):
         return True
     else:
         return False
-# This function checks that the numbers are decreasing
+''' This function checks that the numbers are decreasing'''
 
 
 def do_the_math(number1):
