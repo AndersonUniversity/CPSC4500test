@@ -37,8 +37,3 @@ def flip_number(number1):
     return intflippednum
 # This function flips the number
 
-
-
-
-
-
