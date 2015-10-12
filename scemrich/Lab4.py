@@ -14,8 +14,6 @@ def check_decreasenum(number1):
         return True
     else:
         return False
-
-
 # This function checks that the numbers are decreasing
 
 
