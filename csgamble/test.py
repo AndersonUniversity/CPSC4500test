@@ -2,7 +2,7 @@ __author__ = 'Cam-Mac'
 """Test file for Magic 1089"""
 
 
-import Magic
+from . import Magic
 
 
 # creates a list of numbers 100-999
