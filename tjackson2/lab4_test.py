@@ -1,6 +1,6 @@
 '''09/28/2015 Tyler Jackson Testing Implementation for magic tests.
     Range of all whole numbers from 100 through 999.'''
-import lab4
+from . import lab4
 
 
 def magic_or_not_test():
