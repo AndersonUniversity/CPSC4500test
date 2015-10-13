@@ -30,5 +30,3 @@ def test_numConvert():
 
 if __name__ == '__main__':
     print(test_numConvert())  # prints number of results with 1089
-
-
