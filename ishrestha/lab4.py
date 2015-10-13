@@ -40,4 +40,3 @@ def numConvert(a):
 
     else:  # if less or greater
         return 2  # just returns 2
-    
