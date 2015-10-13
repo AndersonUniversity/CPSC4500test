@@ -3,11 +3,10 @@ __author__ = 'Ivaan'
 Date:09/27/2015
 Prof. Kyle and Prof. Coy'''
 
+
 def numCheck(num):
 
-
-   '''this function takes a number as an argument and verifies
-   that the digits are in decreasing order'''
+    '''this function takes a number as an argument and verifies that the digits are in decreasing order'''
    b =str(num)#converting the number to string
    a = len(b) #getting a length of string
    if a !=3: #making sure there are only 3 digits
