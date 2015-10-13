@@ -6,7 +6,7 @@
 
 def decreasing_or_not(pInt):
     '''Checks whether or not the passed in int is
-	decreasing or not, returning a bool.'''
+    decreasing or not, returning a bool.'''
     int_array = list(map(int, str(pInt)))
     for i in range(0, len(int_array)-1):
         if int_array[i] <= int_array[i+1]:
@@ -23,7 +23,7 @@ def reverse_number(pInt):
 
 def magic_or_not(pInt):
     '''Tests whether or not the passed in int is a "magic"
-	number or not. Returns 1089 if it is.'''
+    number or not. Returns 1089 if it is.'''
     if pInt > 99 and pInt < 1000:
         step_one = pInt - reverse_number(pInt)
         step_two = step_one + reverse_number(step_one)
