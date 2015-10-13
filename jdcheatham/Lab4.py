@@ -1,14 +1,15 @@
 """J. Cheatham
 CPSC4500, lab4"""
 
-def verifyDecrease(number):
 
+def verifyDecrease(number):
     if number[0] < number[1]:
         return ("false")
     else:
         if number[0] < number[2]:
             return ("false")
     return "true"
+
 
 def magic(number):
     numCheck = str(number)
@@ -25,5 +26,3 @@ def magic(number):
     revMag = int(revMagic)
     finalNum = revMag + magicNumber
     return finalNum
-
-
