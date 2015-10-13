@@ -9,7 +9,7 @@ def flip(i):
 
 
 def decrease(i):
-    """checks to see if the #'s are in descending order"""
+    """checks to see if the #s are in descending order"""
     largest = 10
     for new in str(i):
         number = int(new)
@@ -23,5 +23,5 @@ def decrease(i):
 def trick(i):
     """shows the magical 1089"""
     difference = i - flip(i)
-    difference + flip(difference)
-    print(i)
+    final = difference + flip(difference)
+    return final
