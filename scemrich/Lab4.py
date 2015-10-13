@@ -7,13 +7,15 @@ add it to the reverse of itself. The number you will get is 1089'''
 
 
 def check_decreasenum(number1):
+    """ This function checks that the numbers are decreasing"""
+
     numberstring = str(number1)
     if numberstring[0] > numberstring[1] > numberstring[2] \
             and 3 == len(numberstring):
         return True
     else:
         return False
-''' This function checks that the numbers are decreasing'''
+
 
 
 def do_the_math(number1):
