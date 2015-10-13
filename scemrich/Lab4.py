@@ -16,6 +16,7 @@ def check_decreasenum(number1):
     else:
         return False
 
+
 def do_the_math(number1):
 
     # This function computes the problem
