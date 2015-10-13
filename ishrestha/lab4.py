@@ -30,7 +30,7 @@ def numConvert(a):
         t = b[0]
         newNum = f+s+t  # adding all these together
         newNum = int(newNum)  # convert to int
-        newNum1 = a - newNum  #  reversed number of original number
+        newNum1 = a - newNum  # reversed number of original number
         newNum1 = str(newNum1)  # convert to string
         newNum2 = newNum1[::-1]  # reversing the number
         newNum2 = int(newNum2)  # converting to string
@@ -40,3 +40,4 @@ def numConvert(a):
 
     else:  # if less or greater
         return 2  # just returns 2
+    
