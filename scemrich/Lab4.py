@@ -17,7 +17,7 @@ def check_decreasenum(number1):
 
 
 def do_the_math(number1):
-# This function computes the problem
+    # This function computes the problem
 
     flipnum = flip_number(number1)
     newval = number1 - flipnum
@@ -26,11 +26,10 @@ def do_the_math(number1):
 
 
 def flip_number(number1):
-# This function flips the number
+    # This function flips the number
 
     flippednum = str(number1)
     stringflippednum = str(flippednum)
     stringflippednum[::-1]
     intflippednum = int(stringflippednum)
     return intflippednum
-
