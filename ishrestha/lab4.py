@@ -4,6 +4,8 @@ Date:09/27/2015
 Prof. Kyle and Prof. Coy'''
 
 def numCheck(num):
+
+
    '''this function takes a number as an argument and verifies
    that the digits are in decreasing order'''
    b =str(num)#converting the number to string
@@ -16,7 +18,10 @@ def numCheck(num):
        else:
            return False #return false if not in decresing order
 
+
 def numConvert(a):
+
+
     '''this function converts the number to 1089 after calculations'''
     b=str(a) #converts to string
     if numCheck(b): #checks if it is of 3 length and in decreasing order
