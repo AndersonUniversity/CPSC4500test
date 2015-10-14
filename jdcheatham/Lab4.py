@@ -28,3 +28,4 @@ def magic(number):
     revMag = int(revMagic)
     finalNum = revMag + magicNumber
     return finalNum
+
