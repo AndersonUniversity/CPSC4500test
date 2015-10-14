@@ -3,6 +3,8 @@ CPSC4500, lab4"""
 
 
 """ check number to verify it fits the requirements of decreasing in order"""
+
+
 def verifyDecrease(number):
     if number[0] < number[1]:
         return ("false")
@@ -13,6 +15,8 @@ def verifyDecrease(number):
 
 
 """run the number through and show the magic"""
+
+
 def magic(number):
     numCheck = str(number)
     if len(numCheck) > 3:
