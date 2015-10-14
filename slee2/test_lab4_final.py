@@ -1,4 +1,5 @@
-import lab4_final
+from . import lab4_final
+
 __author__ = 'sLee'
 ''' In unit test (use nosetests), use range() to generate
 a list that contains all numbers from 100 to 999.'''

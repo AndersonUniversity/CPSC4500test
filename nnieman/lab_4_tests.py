@@ -1,6 +1,6 @@
 """Nose tests for lab_4"""
 
-from lab_4 import math_magic
+from .lab_4 import math_magic
 
 
 def test_math_magic():
