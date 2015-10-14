@@ -4,8 +4,7 @@ __author__ = 'emilygrismore'
 
 def flip(i):
     """reverses the number"""
-    int(str(i)[::-1])
-    return i
+    return int(str(i)[::-1])
 
 
 def decrease(i):
