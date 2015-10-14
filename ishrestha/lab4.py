@@ -1,6 +1,5 @@
 __author__ = 'Ivaan'
 ''' Lab 4:Python module to verify that the Magic 1089 trick is indeed true
-Date:09/27/2015
 Prof. Kyle and Prof. Coy'''
 
 
@@ -39,4 +38,4 @@ def numConvert(a):
         return newNum  # returns value 1089
 
     else:  # if less or greater
-        return 2  # just returns 2
+        return None  # just nothing

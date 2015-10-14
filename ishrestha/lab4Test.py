@@ -1,11 +1,9 @@
 __author__ = 'Ivaan'
 '''Nosetest to ensure that functions written
 in lab 4 is wokring as it supposed to
-Date: 09/27/2015
 Prof. Coy and Prof. Tarplee'''
 
-from lab4 import numCheck  # imports numCheck function from lab4
-from lab4 import numConvert  # imports numConvert function from lab 4
+from lab4 import numCheck, numConvert
 
 
 def test_numCheck():
