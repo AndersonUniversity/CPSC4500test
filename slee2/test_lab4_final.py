@@ -1,6 +1,7 @@
 import lab4_final
 __author__ = 'sLee'
-''' In unit test (use nosetests), use range() to generate a list that contains all numbers from 100 to 999.'''
+''' In unit test (use nosetests), use range() to generate
+a list that contains all numbers from 100 to 999.'''
 
 
 def test_generate_num():

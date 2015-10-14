@@ -3,20 +3,10 @@ __author__ = 'sLee'
 Lab3
 Samuel Lee
 Sept/28/2015
-Goal is to Write a Python module to verify that the Magic 1089 trick
-is indeed true.
 This program should:
-Have a function that takes a number as an argument and verifies that
-the digits are in decreasing order,
-returning True if they are and False if not.
-The digits must be strictly decreasing,
-since the Magic 1089 trick does not
-work for numbers like 988, where two digits are equal.
-# One way to do this is to convert the number to a string using
-the str() function, then use a for loop to compare neighboring characters.
 Have a function that takes a number as an argument. If the number is
 three digits, and the digits are in decreasing order, then the function
-should perform the above calculations and return the result
+should perform the magic number calculations and return the result
 (which should be 1089) as an integer.
 '''
 
